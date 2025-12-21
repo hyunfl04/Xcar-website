@@ -1,0 +1,9 @@
+
+{
+  "name": "Xcar - Luxury Automotive Experience",
+  "description": "Premium car marketplace with budget planning, comparison and admin management.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

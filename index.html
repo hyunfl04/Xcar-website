@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XCAR | Siêu Xe & Trải Nghiệm Thượng Lưu</title>
+    <meta name="description" content="Khám phá bộ sưu tập siêu xe độc quyền tại Xcar. Công cụ tính ngân sách, so sánh thông số và trải nghiệm không gian luxury đỉnh cao.">
+    <meta name="keywords" content="Xcar, siêu xe, mua bán ô tô, Bugatti, Ferrari, Lamborghini, luxury cars">
+    <meta name="author" content="Xcar Global">
+    
+    <!-- Open Graph cho Facebook/Zalo -->
+    <meta property="og:title" content="XCAR | Đỉnh Cao Công Nghệ Ô Tô">
+    <meta property="og:description" content="Trải nghiệm bộ sưu tập xe hiệu suất cao độc quyền nhất thế giới.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=1000">
+    <meta property="og:type" content="website">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            overflow-x: hidden;
+        }
+        h1, h2, h3, .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+        .gold-text { color: #d4af37; }
+        .gold-bg { background-color: #d4af37; }
+        .gold-border { border-color: #d4af37; }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #111; }
+        ::-webkit-scrollbar-thumb { background: #d4af37; border-radius: 4px; }
+        
+        /* Hiệu ứng mượt mà cho ảnh */
+        img { transition: opacity 0.3s ease-in-out; }
+        .fade-in { animation: fadeIn 0.8s ease-out; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
